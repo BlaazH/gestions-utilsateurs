@@ -3,3 +3,15 @@
     border-radius: 10px;
     margin-bottom: 5px;
 }
+.user{
+    border: 5px rgb(148, 148, 192) solid;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(208, 194, 176);
+}
+
+.grid{
+    display: grid;
+   grid-template-columns:repeat(2 , 1fr);
+   gap: 10px;
+}
