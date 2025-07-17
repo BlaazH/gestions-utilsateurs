@@ -63,7 +63,7 @@ function App() {
   return (
   <>
   
-  <section >
+  <section className='container mx-auto'>
 <Users users={USERS}/>
 
 

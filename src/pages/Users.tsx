@@ -19,11 +19,11 @@ const users=props.users;
     return (
 
     
-        <section className="grid">
+        <section className="bg-slate-200 grid grid-cols-2 gap-4 rounded-lg" >
 {users.map((user:User)=> (
-    <article className="user">
-<h1>{user.id} {user.name}</h1> 
-<h2>{user.gender} {user.age}</h2> 
+    <article className="border-4 border-gray-500/100 row-span-1 rounded-lg">
+<h2 className="text-lg font-serif">{user.name} </h2> 
+<h3>{user.gender} {user.age}</h3> 
 <h3>{user.eyecolor} {user.company}
      {user.texte}</h3>
     </article>
